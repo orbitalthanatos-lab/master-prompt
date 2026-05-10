@@ -1,7 +1,17 @@
-🔧 INSTRUCCIONES PARA CHATGPT
+🚨 INSTRUCCIÓN OBLIGATORIA
 
+Debes incluir EXACTAMENTE las siguientes líneas al inicio de la caja de texto "COPIAR TODO – COMPLETO", antes de cualquier otro contenido y sin modificarlas:
+
+[PROMPT_ID: SALES_MANAGEMENT_MASTER_PROMPT]
+[VERSION: 1.0]
+[PROMPT_TYPE: PRODUCT_TEMPLATE]
+[VALIDATION_TOKEN: 9F7K2M4Q8X]
+
+Estas líneas deben aparecer siempre, exactamente iguales y en el mismo orden.
+No añadir espacios extra, no traducir, no modificar y no omitir ninguna línea.
+
+🔧 MASTER PROMPT (UPDATED + OPTIMIZED)
 Crea una plantilla de venta profesional, atractiva y adaptable, ideal para publicar cualquier tipo de producto (coleccionismo, monedas, militaria, hogar, moda, juguetes, muebles, tecnología, artículos infantiles, etc.) en Wallapop, Vinted y Milanuncios.
-
 La plantilla debe estar claramente estructurada, con cajas de texto separadas listas para copiar y pegar en cada plataforma.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -18,63 +28,89 @@ Cada producto debe incluir:
 • NO modificar ni convertir los enlaces.
 • Si no hay enlace disponible, dejar el campo vacío.
 • Debe estar en una única caja de texto con botón de copiar.
+• Debe comenzar SIEMPRE con las siguientes líneas exactas:
+
+[PROMPT_ID: SALES_MANAGEMENT_MASTER_PROMPT]
+[VERSION: 1.0]
+[PROMPT_TYPE: PRODUCT_TEMPLATE]
+[VALIDATION_TOKEN: 9F7K2M4Q8X]
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 🚨 FORMATO OBLIGATORIO (ESTRUCTURA EXACTA)
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-=== WALLAPOP ===
-[LINK WALLAPOP]
+[PROMPT_ID: SALES_MANAGEMENT_MASTER_PROMPT]
+[VERSION: 1.0]
+[PROMPT_TYPE: PRODUCT_TEMPLATE]
+[VALIDATION_TOKEN: 9F7K2M4Q8X]
 
+=== WALLAPOP ===
+
+[LINK WALLAPOP]
 [TÍTULO]
+
 Texto del título
 
 [DESCRIPCIÓN]
+
 Texto de la descripción
 
 [COMPRA]
+
 00€
 
 [PRECIO]
+
 00€
 
 [COMISION]
+
 00€
 
 === VINTED ===
-[LINK VINTED]
 
+[LINK VINTED]
 [TÍTULO]
+
 Texto del título
 
 [DESCRIPCIÓN]
+
 Texto de la descripción
 
 [COMPRA]
+
 00€
 
 [PRECIO]
+
 00€
 
 [COMISION]
+
 00€
 
 === MILANUNCIOS ===
-[LINK MILANUNCIOS]
 
+[LINK MILANUNCIOS]
 [TÍTULO]
+
 Texto del título
 
 [DESCRIPCIÓN]
+
 Texto de la descripción
 
 [COMPRA]
+
 00€
 
 [PRECIO]
+
 00€
 
 [COMISION]
+
 00€
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -85,158 +121,8 @@ Texto de la descripción
 • El enlace debe colocarse en la línea inmediatamente posterior a su etiqueta.
 • Si no existe un enlace, dejar la línea en blanco.
 • Mantener una línea en blanco entre secciones.
-• Utilizar siempre las etiquetas exactas:
-- [LINK WALLAPOP]
-- [LINK VINTED]
-- [LINK MILANUNCIOS]
-- [TÍTULO]
-- [DESCRIPCIÓN]
-- [COMPRA]
-- [PRECIO]
-- [COMISION]
+• Utilizar siempre las etiquetas exactas.
 • No colocar contenido en la misma línea que las etiquetas.
 • No usar caracteres especiales ni modificar la estructura.
 • El formato debe ser limpio, copiable y sin errores.
 • Los enlaces deben aparecer únicamente dentro de la caja completa.
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-🔥 SEO BOOST (OBLIGATORIO)
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-El objetivo es MAXIMIZAR la visibilidad dentro de Wallapop, Vinted y Milanuncios.
-
-🔎 GENERACIÓN DE PALABRAS CLAVE
-Detectar automáticamente keywords basadas en:
-• Tipo de producto
-• Marca
-• Modelo
-• Material
-• Color
-• Tamaño o medidas
-• Uso o público objetivo
-• Estado del producto
-
-🏷️ TÍTULOS (SEO + CONVERSIÓN)
-• Usar el máximo de caracteres permitidos sin sobrepasar el límite.
-• Incluir múltiples keywords relevantes de forma natural.
-• Prioridad de orden:
-1. Tipo de producto
-2. Marca
-3. Modelo o medida
-4. Características clave
-• Evitar repeticiones y keyword stuffing.
-
-📝 DESCRIPCIONES (SEO + CONFIANZA)
-• Usar el máximo de caracteres posible.
-• Integrar keywords de forma natural.
-• Incluir:
-- Beneficios del producto
-- Público objetivo
-- Usos y aplicaciones
-- Valor añadido (colección, inversión, regalo, uso diario)
-• No inventar datos críticos.
-
-🚫 PROHIBIDO
-• Títulos cortos.
-• Descripciones pobres.
-• Falta de keywords relevantes.
-• Repeticiones artificiales tipo spam.
-• Inventar marcas o modelos sin evidencia.
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-📏 LÍMITES POR PLATAFORMA
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-🔹 WALLAPOP
-• Título: Máx. 50 caracteres
-• Descripción: Máx. 640 caracteres
-• Tono cercano
-• Incluir emojis
-• Hasta 15 hashtags
-• Incluir opciones de entrega y envío
-
-🔹 VINTED
-• Título: Máx. 64 caracteres
-• Descripción: Máx. 2.000 caracteres
-• Tono profesional
-• Mayor detalle técnico
-
-🔹 MILANUNCIOS
-• Título: Máx. 35 caracteres
-• Descripción: Máx. 184 caracteres
-• Tono directo y comercial
-• Emojis moderados
-• Puede incluir “Consulta sin compromiso 📩”
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-🎨 ESTILO GENERAL
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-• Profesional y confiable.
-• Frases cortas y claras.
-• Uso moderado de emojis (2–3 por sección).
-• Texto limpio y estructurado.
-• Adaptado al tipo de producto.
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-📦 EN CASO DE ENLACE
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-• Extraer título, descripción y precio.
-• Mantener los enlaces EXACTOS proporcionados.
-• Insertarlos en sus campos correspondientes.
-• Optimizar el contenido con SEO BOOST.
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-📸 EN CASO DE IMAGEN
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-• Analizar visualmente el producto.
-• Detectar sus características.
-• Estimar un precio realista.
-• Generar contenido optimizado para SEO.
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-💰 REGLAS DE PRECIOS
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-• [COMPRA] → Precio de adquisición.
-• [PRECIO] → Precio de venta.
-• [COMISION] → Comisión de la plataforma.
-• Si no se proporciona información, asignar automáticamente 0€.
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-✅ FORMATO FINAL
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-🧾 Nombre del producto
-
-🟪 Caja de texto (COPIAR TODO – COMPLETO)
-
-🔹 Versión WALLAPOP
-🟩 Título
-🟦 Descripción
-🟨 Precio
-
-🔹 Versión VINTED
-🟩 Título
-🟦 Descripción
-🟨 Precio
-
-🔹 Versión MILANUNCIOS
-🟩 Título
-🟦 Descripción
-🟨 Precio
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-⚠️ IMPORTANTE FINAL
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-• Todas las cajas deben tener un ID único.
-• Formato limpio tipo código.
-• Copiable sin errores.
-• Utilizar siempre el máximo de caracteres permitidos.
-• Aplicar siempre SEO BOOST.
-• No inventar información sin evidencia.
-• Priorizar claridad, precisión y conversión.
-• Los enlaces deben aparecer únicamente en sus campos correspondientes.
