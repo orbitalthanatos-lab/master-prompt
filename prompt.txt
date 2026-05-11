@@ -1,128 +1,535 @@
-🚨 INSTRUCCIÓN OBLIGATORIA
+🔧 MASTER PROMPT (UPDATED + OPTIMIZED)
 
-Debes incluir EXACTAMENTE las siguientes líneas al inicio de la caja de texto "COPIAR TODO – COMPLETO", antes de cualquier otro contenido y sin modificarlas:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🚨 FORMATO ESTRICTO DE CABECERAS (OBLIGATORIO)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Las siguientes cinco líneas deben escribirse EXACTAMENTE como se muestran a continuación.
+
+🚨 REGLAS CRÍTICAS:
+
+• Cada etiqueta debe estar en una línea independiente.
+• Debe existir un salto de línea real (ASCII 10 / LF) después de cada línea.
+• No se permite colocar dos o más etiquetas en la misma línea.
+• No se permite sustituir saltos de línea por espacios.
+• No se permite compactar, concatenar o reordenar las líneas.
+• No se permite modificar el texto interno de ninguna etiqueta.
+• Deben aparecer al principio absoluto del archivo o caja de texto.
+• No debe existir ningún carácter antes de [PROMPT_ID: ...].
+• Después de [UPLOAD_ID: ...] debe existir exactamente una línea en blanco.
+• Si el formato de salida es .txt, estas líneas deben escribirse como texto plano puro, respetando los saltos de línea reales.
+• Antes de finalizar la respuesta, debes verificar que cada etiqueta ocupa su propia línea.
+
+FORMATO OBLIGATORIO EXACTO:
 
 [PROMPT_ID: SALES_MANAGEMENT_MASTER_PROMPT]
-[VERSION: 1.0]
+[VERSION: 1.1]
 [PROMPT_TYPE: PRODUCT_TEMPLATE]
 [VALIDATION_TOKEN: 9F7K2M4Q8X]
+[UPLOAD_ID: {{GENERATE_RANDOM_10_CHAR_ID}}]
+
+⚠️ VALIDACIÓN FINAL OBLIGATORIA
+
+Antes de entregar el resultado, confirmar internamente que:
+
+1. [PROMPT_ID: ...] está solo en la línea 1.
+2. [VERSION: ...] está solo en la línea 2.
+3. [PROMPT_TYPE: ...] está solo en la línea 3.
+4. [VALIDATION_TOKEN: ...] está solo en la línea 4.
+5. [UPLOAD_ID: ...] está solo en la línea 5.
+6. La línea 6 está completamente en blanco.
+7. Ninguna de las cinco etiquetas comparte línea con otra etiqueta.
+
+Debes generar automáticamente un UPLOAD_ID único en cada respuesta.
+El UPLOAD_ID debe contener exactamente 10 caracteres alfanuméricos en mayúsculas (A-Z y 0-9).
+Nunca reutilizar un UPLOAD_ID anterior.
 
 Estas líneas deben aparecer siempre, exactamente iguales y en el mismo orden.
 No añadir espacios extra, no traducir, no modificar y no omitir ninguna línea.
 
-🔧 MASTER PROMPT (UPDATED + OPTIMIZED)
 Crea una plantilla de venta profesional, atractiva y adaptable, ideal para publicar cualquier tipo de producto (coleccionismo, monedas, militaria, hogar, moda, juguetes, muebles, tecnología, artículos infantiles, etc.) en Wallapop, Vinted y Milanuncios.
+
 La plantilla debe estar claramente estructurada, con cajas de texto separadas listas para copiar y pegar en cada plataforma.
-
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
 📋 ESTRUCTURA DEL RESULTADO
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 Cada producto debe incluir:
-
 🟪 0️⃣ Caja de texto (COPIAR TODO – COMPLETO)
-
 • Debe incluir TODO el contenido del producto (Wallapop, Vinted y Milanuncios).
+
 • Debe incluir los enlaces originales de cada plataforma si existen.
+
 • Los enlaces deben ser EXACTAMENTE los mismos que el usuario proporciona.
+
 • NO modificar ni convertir los enlaces.
+
 • Si no hay enlace disponible, dejar el campo vacío.
+
 • Debe estar en una única caja de texto con botón de copiar.
-• Debe comenzar SIEMPRE con las siguientes líneas exactas:
-
-[PROMPT_ID: SALES_MANAGEMENT_MASTER_PROMPT]
-[VERSION: 1.0]
-[PROMPT_TYPE: PRODUCT_TEMPLATE]
-[VALIDATION_TOKEN: 9F7K2M4Q8X]
-
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
 🚨 FORMATO OBLIGATORIO (ESTRUCTURA EXACTA)
+
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-[PROMPT_ID: SALES_MANAGEMENT_MASTER_PROMPT]
-[VERSION: 1.0]
-[PROMPT_TYPE: PRODUCT_TEMPLATE]
-[VALIDATION_TOKEN: 9F7K2M4Q8X]
-
 === WALLAPOP ===
 
 [LINK WALLAPOP]
 [TÍTULO]
 
 Texto del título
-
 [DESCRIPCIÓN]
 
 Texto de la descripción
-
 [COMPRA]
 
 00€
-
 [PRECIO]
 
 00€
-
 [COMISION]
 
 00€
-
 === VINTED ===
 
 [LINK VINTED]
 [TÍTULO]
 
 Texto del título
-
 [DESCRIPCIÓN]
 
 Texto de la descripción
-
 [COMPRA]
 
 00€
-
 [PRECIO]
 
 00€
-
 [COMISION]
 
 00€
-
 === MILANUNCIOS ===
 
 [LINK MILANUNCIOS]
 [TÍTULO]
 
 Texto del título
-
 [DESCRIPCIÓN]
 
 Texto de la descripción
-
 [COMPRA]
 
 00€
-
 [PRECIO]
 
 00€
-
 [COMISION]
 
 00€
-
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
 ⚠️ REGLAS IMPORTANTES DEL FORMATO
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+• [LINK WALLAPOP], [LINK VINTED] y [LINK MILANUNCIOS] deben aparecer siempre.
+
+• El enlace debe colocarse en la línea inmediatamente posterior a su etiqueta.
+
+• Si no existe un enlace, dejar la línea en blanco.
+
+• Mantener una línea en blanco entre secciones.
+
+• Utilizar siempre las etiquetas exactas.
+
+• No colocar contenido en la misma línea que las etiquetas.
+
+• No usar caracteres especiales ni modificar la estructura.
+
+• El formato debe ser limpio, copiable y sin errores.
+
+• Los enlaces deben aparecer únicamente dentro de la caja completa.
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-• [LINK WALLAPOP], [LINK VINTED] y [LINK MILANUNCIOS] deben aparecer siempre.
-• El enlace debe colocarse en la línea inmediatamente posterior a su etiqueta.
-• Si no existe un enlace, dejar la línea en blanco.
-• Mantener una línea en blanco entre secciones.
-• Utilizar siempre las etiquetas exactas.
-• No colocar contenido en la misma línea que las etiquetas.
-• No usar caracteres especiales ni modificar la estructura.
-• El formato debe ser limpio, copiable y sin errores.
-• Los enlaces deben aparecer únicamente dentro de la caja completa.
+🔥 SEO BOOST (OBLIGATORIO)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🔎 GENERACIÓN DE PALABRAS CLAVE
+
+Detectar automáticamente keywords basadas en:
+
+• Tipo de producto
+
+• Marca
+
+• Modelo
+
+• Material
+
+• Color
+
+• Tamaño o medidas
+
+• Uso o público objetivo
+
+• Estado del producto
+🏷️ TÍTULOS (SEO + CONVERSIÓN)
+
+• Usar el máximo de caracteres permitido sin sobrepasarlo.
+
+• Incluir múltiples keywords relevantes de forma natural.
+
+• Prioridad:
+1. 
+Tipo de producto
+
+2. 
+Marca
+
+3. 
+Modelo o medida
+
+4. 
+Características clave
+• Evitar repeticiones y keyword stuffing.
+
+📝 DESCRIPCIONES (SEO + CONFIANZA)
+
+• Usar el máximo de caracteres posible.
+
+• Integrar keywords de forma natural.
+
+• Incluir:
+• 
+Beneficios
+
+• 
+Público objetivo
+
+• 
+Usos
+
+• 
+Valor añadido (regalo, colección, uso diario, inversión)
+• No inventar datos críticos.
+
+🚫 PROHIBIDO
+
+• Títulos cortos
+
+• Descripciones pobres
+
+• Keyword stuffing
+
+• Inventar marcas/modelos
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📏 LÍMITES POR PLATAFORMA
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🔹 WALLAPOP
+
+• Título: Máx. 50 caracteres
+
+• Descripción: Máx. 640 caracteres
+
+• Tono cercano
+
+• Incluir emojis
+
+• Hasta 15 hashtags
+
+• Incluir envío/entrega
+🔹 VINTED
+
+• Título: Máx. 64 caracteres
+
+• Descripción: Máx. 2.000 caracteres
+
+• Tono profesional
+
+• Más detalle técnico
+🔹 MILANUNCIOS
+
+• Título: Máx. 35 caracteres
+
+• Descripción: Máx. 184 caracteres
+
+• Tono directo
+
+• Emojis moderados
+
+• Puede incluir “Consulta sin compromiso 📩”
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🎨 ESTILO GENERAL
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+• Profesional y confiable
+
+• Frases claras
+
+• Emojis moderados
+
+• Texto limpio y estructurado
+
+• Adaptado al producto
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📦 EN CASO DE ENLACE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+• Extraer automáticamente del enlace:
+• Título
+• Descripción completa
+• Precio
+• Características relevantes
+• Marca y modelo (si existen)
+
+• Mantener el enlace EXACTAMENTE como fue proporcionado.
+
+• Optimizar siempre utilizando SEO BOOST.
+
+🚨 REGLA CRÍTICA: EXTRAER LA DESCRIPCIÓN EXACTA DEL ENLACE
+
+• Si el enlace contiene una descripción del producto (por ejemplo en Wallapop, Vinted o Milanuncios):
+👉 DEBES copiar la descripción ORIGINAL exactamente como aparece en el anuncio.
+
+• La extracción debe ser:
+• Palabra por palabra.
+• Manteniendo el mismo texto original.
+• Sin resumir.
+• Sin reinterpretar.
+• Sin omitir información.
+• Sin cambiar el significado.
+
+• Debes preservar:
+• Saltos de línea.
+• Emojis.
+• Listas.
+• Mayúsculas y minúsculas.
+• Signos de puntuación.
+• Hashtags.
+
+🚨 PROHIBIDO
+
+• Reescribir la descripción desde cero.
+• Sustituir el texto original por uno inventado.
+• Resumir el contenido.
+• Eliminar información relevante.
+• Cambiar datos técnicos o históricos.
+• Añadir características no presentes.
+
+🚨 PROCESO OBLIGATORIO
+
+1. Extraer la descripción exacta del enlace.
+2. Conservar literalmente todo el texto original.
+3. Reorganizar únicamente cuando sea necesario para adaptarlo al formato visual obligatorio.
+4. Corregir solo errores ortográficos evidentes.
+5. Añadir SEO y texto complementario únicamente al final y solo si no altera el contenido original.
+6. Adaptar el resultado a los límites de cada plataforma.
+
+🚨 PRIORIDAD ABSOLUTA
+
+1. Extraer la descripción exacta palabra por palabra.
+2. Mantener el contenido original intacto.
+3. Formatear visualmente.
+4. Añadir mejoras SEO sin modificar el texto base.
+5. Solo generar una descripción nueva si el enlace no contiene ninguna descripción.
+
+• Si la descripción original es muy breve:
+👉 Mantenerla exactamente y ampliarla con contenido SEO adicional.
+
+• Si la descripción original es extensa y detallada:
+👉 Priorizar conservarla íntegramente y únicamente optimizar la presentación.
+
+• Si el enlace NO contiene descripción:
+👉 Generar una descripción nueva siguiendo todas las reglas del SEO BOOST.
+
+🚨 NUEVA REGLA (PRECIO OBLIGATORIO)
+
+• Si existe un precio en:
+• Texto del usuario
+• Imagen
+• Enlace
+
+👉 DEBE utilizarse automáticamente como:
+• [PRECIO]
+
+• Si hay varios precios:
+👉 usar el más realista o principal.
+
+• Si NO hay precio:
+👉 asignar 0€.
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📸 EN CASO DE IMAGEN
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+• Analizar producto
+
+• Detectar características
+
+• Estimar precio realista
+
+• Generar contenido SEO
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+💰 REGLAS DE PRECIOS
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+• [COMPRA] → Precio de adquisición
+
+• [PRECIO] → Precio de venta (AUTO si existe)
+
+• [COMISION] → Comisión
+⚠️ PRIORIDAD:
+1. 
+Precio detectado → usarlo
+
+2. 
+Si no → estimar
+
+3. 
+Si imposible → 0€
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+✅ FORMATO FINAL
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🧾 Nombre del producto
+🟪 Caja de texto (COPIAR TODO – COMPLETO)
+🔹 Versión WALLAPOP
+
+🟩 Título
+
+🟦 Descripción
+
+🟨 Precio
+🔹 Versión VINTED
+
+🟩 Título
+
+🟦 Descripción
+
+🟨 Precio
+🔹 Versión MILANUNCIOS
+
+🟩 Título
+
+🟦 Descripción
+
+🟨 Precio
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+⚠️ IMPORTANTE FINAL
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+• Todas las cajas deben tener ID único
+
+• Formato limpio tipo código
+
+• Copiable sin errores
+
+• Usar máximos caracteres siempre
+
+• Aplicar SEO BOOST siempre
+
+• No inventar datos
+
+• Priorizar conversión
+
+• Enlaces SOLO dentro de la caja
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📝 FORMATO DE DESCRIPCIONES (OBLIGATORIO)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Las descripciones deben estar SIEMPRE bien organizadas y estructuradas visualmente.
+
+🚨 REGLAS OBLIGATORIAS:
+
+• NO escribir toda la descripción en un único bloque de texto.
+• NO poner todo el contenido en una sola línea o párrafo largo.
+• Utilizar saltos de línea para separar claramente cada sección.
+• Agrupar la información en bloques cortos y fáciles de leer.
+• Cada párrafo debe contener una idea específica.
+• Mantener un formato limpio, profesional y visualmente atractivo.
+• Optimizar la legibilidad tanto en móvil como en ordenador.
+
+📋 ESTRUCTURA RECOMENDADA DE LA DESCRIPCIÓN:
+
+1. Primera línea:
+• Frase de impacto o presentación del producto.
+
+2. Segunda sección:
+• Características principales.
+• Marca, modelo, talla, color, material, medidas.
+
+3. Tercera sección:
+• Estado del producto.
+• Nuevo, sin uso, excelente estado, etc.
+
+4. Cuarta sección:
+• Usos recomendados.
+• Coleccionismo, uso diario, regalo, inversión, decoración, etc.
+
+5. Quinta sección:
+• Información de envío o entrega.
+
+6. Última sección:
+• Hashtags relevantes (cuando la plataforma lo permita).
+
+📱 EJEMPLO DE FORMATO CORRECTO:
+
+🎖️ Producto original y auténtico.
+
+📏 Talla XXL.
+🎨 Color negro.
+🏷️ Marca CamelBak.
+
+✅ Excelente estado.
+🆕 Listo para usar.
+
+🎯 Ideal para coleccionistas, airsoft y actividades tácticas.
+
+📦 Envíos disponibles y entrega en mano.
+
+#camelbak #militaria #airsoft #tactical
+
+⚠️ RESULTADO ESPERADO:
+
+• Descripciones visualmente ordenadas.
+• Párrafos cortos y bien separados.
+• Fácil lectura.
+• Mayor confianza y conversión.
+• Aspecto profesional y atractivo.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📦 FORMATO DE SALIDA (SELECCIÓN PREVIA)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Antes de ejecutar el prompt, debes preguntarme qué formato de salida prefiero:
+
+1. 📋 Caja de texto lista para copiar y pegar.
+2. 📄 Archivo .txt individual para cada producto.
+
+⚠️ REGLAS OBLIGATORIAS
+
+• Debes hacer esta pregunta SIEMPRE antes de generar cualquier contenido.
+• No debes asumir automáticamente el formato.
+• Debes esperar mi respuesta antes de continuar.
+• Si elijo la opción 1:
+- Genera el contenido dentro de una única caja de texto ("COPIAR TODO – COMPLETO") lista para copiar.
+• Si elijo la opción 2:
+- Genera un archivo .txt individual para cada producto con todo el contenido.
+• El contenido generado debe ser exactamente el mismo en ambos formatos.
+• Solo cambia la forma de entrega.
+
+Pregunta obligatoria:
+
+¿Qué formato de salida prefieres?
+
+1. 📋 Caja de texto lista para copiar.
+2. 📄 Archivo .txt individual.
