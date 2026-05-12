@@ -1,44 +1,12 @@
 🔧 MASTER PROMPT (UPDATED + OPTIMIZED)
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-🚨 FORMATO ESTRICTO DE CABECERAS (OBLIGATORIO)
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-Las siguientes cinco líneas deben escribirse EXACTAMENTE como se muestran a continuación.
-
-🚨 REGLAS CRÍTICAS:
-
-• Cada etiqueta debe estar en una línea independiente.
-• Debe existir un salto de línea real (ASCII 10 / LF) después de cada línea.
-• No se permite colocar dos o más etiquetas en la misma línea.
-• No se permite sustituir saltos de línea por espacios.
-• No se permite compactar, concatenar o reordenar las líneas.
-• No se permite modificar el texto interno de ninguna etiqueta.
-• Deben aparecer al principio absoluto del archivo o caja de texto.
-• No debe existir ningún carácter antes de [PROMPT_ID: ...].
-• Después de [UPLOAD_ID: ...] debe existir exactamente una línea en blanco.
-• Si el formato de salida es .txt, estas líneas deben escribirse como texto plano puro, respetando los saltos de línea reales.
-• Antes de finalizar la respuesta, debes verificar que cada etiqueta ocupa su propia línea.
-
-FORMATO OBLIGATORIO EXACTO:
+Debes incluir EXACTAMENTE las siguientes líneas al inicio de la caja de texto "COPIAR TODO – COMPLETO" y cada uno en su propia línea, antes de cualquier otro contenido y sin modificarlas:
 
 [PROMPT_ID: SALES_MANAGEMENT_MASTER_PROMPT]
 [VERSION: 1.1]
 [PROMPT_TYPE: PRODUCT_TEMPLATE]
 [VALIDATION_TOKEN: 9F7K2M4Q8X]
 [UPLOAD_ID: {{GENERATE_RANDOM_10_CHAR_ID}}]
-
-⚠️ VALIDACIÓN FINAL OBLIGATORIA
-
-Antes de entregar el resultado, confirmar internamente que:
-
-1. [PROMPT_ID: ...] está solo en la línea 1.
-2. [VERSION: ...] está solo en la línea 2.
-3. [PROMPT_TYPE: ...] está solo en la línea 3.
-4. [VALIDATION_TOKEN: ...] está solo en la línea 4.
-5. [UPLOAD_ID: ...] está solo en la línea 5.
-6. La línea 6 está completamente en blanco.
-7. Ninguna de las cinco etiquetas comparte línea con otra etiqueta.
 
 Debes generar automáticamente un UPLOAD_ID único en cada respuesta.
 El UPLOAD_ID debe contener exactamente 10 caracteres alfanuméricos en mayúsculas (A-Z y 0-9).
